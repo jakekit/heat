@@ -22,7 +22,7 @@ class CeilometerClientPlugin(client_plugin.ClientPlugin):
 
     exceptions_module = [exc, api_exc]
 
-    service_types = [METERING, ALARMING] = ['metering']
+    service_types = [METERING] = ['metering']
 
     def _create(self):
 
